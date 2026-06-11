@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>my web</title>
+        <meta name="viewport" content="user-scalable=no,initial-scale=1">
+        <style>
+            @media print{
+                body{
+                    background-image: url("sea.jpg");
+                }
+            }
+
+             @media screen and (max-width: 767px){
+                body{background-image: url("space.jpg");}
+            }
+
+            h1{
+                color: white;
+                background: black;
+                text-align: center;
+            }
+            div{
+                color:hotpink;
+                background: darkblue;
+                text-align: center;
+            }
+
+            @font-face {
+                            font-family: 'Paperozi';
+                            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-1Thin.woff2') format('woff2');
+                            font-weight: 100;
+                            font-display: swap;
+                        }
+
+            
+            .font-face{font-family: "Paperozi",serif;}
+
+
+            @font-face {
+                font-family: 'JejuStoneWall';
+                src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-EF@1.0/EF_jejudoldam.woff2') format('woff2');
+                font-weight: normal;
+                font-display: swap;
+            }
+
+            .font-jeju{font-family: "JejuStoneWall";}
+
+        </style>
+    </head>
+
+    <body>
+        <h1 class="font-face">Hello World!</h1>
+        <div><p class="font-jeju">안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요</p>
+            <p class="font-jeju">안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요</p>
+            <p class="font-jeju">안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요</p>
+            <p class="font-jeju">안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요</p>
+        </div>
+    </body>
+</html>
